@@ -1,102 +1,113 @@
-<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Base Settings -->
     <string name="app">アプリ</string>
+
     <!-- Admin Settings -->
-    <string name="admin_permission_message">mLauncher は、責任を持ってロック画面のアクセス許可を使用することを約束します。 mLauncher は、いかなるデータも収集または共有しません。</string>
-    <string name="experimental">(実験的)</string>
+    <string name="admin_permission_message">mLauncher promises to use lock screen permission responsibly. mLauncher does not collect or share any data.</string>
+    <string name="experimental">(試験的)</string>
+
     <!-- Settings Headers -->
-    <string name="appearance">外観</string>
-    <string name="behavior">動作</string>
-    <string name="homescreen">ホーム画面</string>
-    <string name="alignment">配置</string>
-    <string name="gestures">ジェスチャー</string>
-    <string name="miscellaneous">その他</string>
+    <string name="appearance">Appearance</string>
+    <string name="behavior">Behavior</string>
+    <string name="homescreen">Homescreen</string>
+    <string name="alignment">Alignment</string>
+    <string name="gestures">Gestures</string>
+    <string name="miscellaneous">Miscellaneous</string>
+
     <!-- Home Strings -->
-    <string name="hidden_apps">非表示のアプリ</string>
-    <string name="reorder_apps">アプリを再注文する</string>
-    <string name="set_as_default_launcher">デフォルトのランチャーに設定</string>
-    <string name="change_default_launcher">デフォルトのランチャーを変更する</string>
+    <string name="hidden_apps">Hidden Apps</string>
+    <string name="reorder_apps">Re-Order Apps</string>
+    <string name="set_as_default_launcher">Set as Default Launcher</string>
+    <string name="change_default_launcher">Change Default Launcher</string>
+
     <!-- Appearance Strings -->
-    <string name="status_bar">ステータスバーを表示</string>
-    <string name="theme_mode">テーマモード</string>
-    <string name="color_mode">カラーモード</string>
-    <string name="app_language">インターフェース言語</string>
-    <string name="app_text_size">アプリのテキストサイズ</string>
-    <string name="clock_text_size">時計の文字サイズ</string>
-    <string name="date_text_size">日付のテキストサイズ</string>
-    <string name="battery_text_size">バッテリーのテキストサイズ</string>
-    <string name="app_padding_size">パディングサイズ</string>
-    <string name="follow_accent_colors">アクセントカラー</string>
-    <string name="background_opacity">背景の不透明度</string>
-    <string name="all_apps_text">すべてのアプリのテキストを表示</string>
-    <string name="app_font">フォントファミリー</string>
+    <string name="status_bar">Show status bar</string>
+    <string name="theme_mode">Theme mode</string>
+    <string name="color_mode">Color Mode</string>
+    <string name="app_language">Interface Language</string>
+    <string name="app_text_size">App Text Size</string>
+    <string name="clock_text_size">Clock Text Size</string>
+    <string name="date_text_size">Date Text Size</string>
+    <string name="battery_text_size">Battery Text Size</string>
+    <string name="app_padding_size">Padding Size</string>
+    <string name="follow_accent_colors">Accent Colors</string>
+    <string name="background_opacity">Background Opacity</string>
+    <string name="all_apps_text">Display All Apps Text</string>
+    <string name="app_font">Font Family</string>
+
     <!-- Behavior Strings -->
-    <string name="auto_show_keyboard">Auto show keyboard</string>
-    <string name="auto_open_apps">アプリを自動的に開く</string>
-    <string name="enable_notifications">通知を有効にします</string>
-    <string name="display_recent_apps">最近のアプリを表示</string>
-    <string name="number_of_recents">最近使用したアプリの数</string>
-    <string name="filter_strength">フィルター強度</string>
-    <string name="search_from_start">最初からアプリ検索。</string>
-    <string name="icon_font">アイコンフォントを使用</string>
+    <string name="auto_show_keyboard">Auto Show Keyboard</string>
+    <string name="auto_open_apps">Auto Open Apps</string>
+    <string name="enable_notifications">Enable Notifications</string>
+    <string name="display_recent_apps">Display Recent Apps</string>
+    <string name="number_of_recents">Number of Recent Apps</string>
+    <string name="filter_strength">Filter Strength</string>
+    <string name="search_from_start">App Search from Start.</string>
+    <string name="icon_font">Use Icon Font</string>
+
     <!-- Home-screen Strings -->
-    <string name="apps_on_home_screen">ショートカットの数</string>
-    <string name="pages_on_home_screen">ページ数</string>
-    <string name="enable_home_pager">ホーム ページャーを有効にする</string>
-    <string name="show_time">時間を表示</string>
-    <string name="show_time_format">時刻形式 (AM/PM)</string>
-    <string name="show_date">日付を表示</string>
-    <string name="show_battery">バッテリーを表示</string>
-    <string name="show_battery_icon">バッテリーアイコンを表示</string>
-    <string name="lock_home_apps">アプリをロック</string>
-    <string name="extend_home_apps_area">クリック可能な領域を拡張</string>
-    <string name="home_alignment_bottom">ホーム画面を下に揃える</string>
+    <string name="apps_on_home_screen">Number of Shortcuts</string>
+    <string name="pages_on_home_screen">Number of Pages</string>
+    <string name="enable_home_pager">Enable Home Pager</string>
+    <string name="show_time">Show Time</string>
+    <string name="show_time_format">Time Format (AM/PM)</string>
+    <string name="show_date">Show Date</string>
+    <string name="show_battery">Show Battery</string>
+    <string name="show_battery_icon">Show Battery Icon</string>
+    <string name="lock_home_apps">Lock Apps</string>
+    <string name="extend_home_apps_area">Extend Clickable Area</string>
+    <string name="home_alignment_bottom">Home Screen Align Bottom</string>
+
     <!-- Alignment Strings -->
-    <string name="display_app_usage_stats">アプリの使用状況統計を表示</string>
-    <string name="home_alignment">アプリのホーム画面</string>
-    <string name="clock_alignment">時計と日付</string>
-    <string name="drawer_alignment">アプリドロワーのアプリ</string>
+    <string name="display_app_usage_stats">Display App Usage Stats</string>
+    <string name="home_alignment">Apps Home Screen</string>
+    <string name="clock_alignment">Clock and Date</string>
+    <string name="drawer_alignment">Apps in App Drawer</string>
+
     <!-- Gestures Strings -->
-    <string name="short_swipe_up_app">上にスワイプ</string>
-    <string name="short_swipe_down_app">下にスワイプ</string>
-    <string name="short_swipe_left_app">左にスワイプ</string>
-    <string name="short_swipe_right_app">右にスワイプ</string>
-    <string name="long_swipe_up_app">長押し 上にスワイプ</string>
-    <string name="long_swipe_down_app">長押し 下にスワイプ</string>
-    <string name="long_swipe_left_app">長押し 左にスワイプ</string>
-    <string name="long_swipe_right_app">長押し 右にスワイプ</string>
-    <string name="clock_click_app">時計をクリックしてください</string>
-    <string name="date_click_app">日付をクリックしてください</string>
-    <string name="usage_click_app">合計使用量をクリック</string>
-    <string name="double_tap">ダブルタップ</string>
+    <string name="short_swipe_up_app">Short Swipe up</string>
+    <string name="short_swipe_down_app">Short Swipe down</string>
+    <string name="short_swipe_left_app">Short Swipe left</string>
+    <string name="short_swipe_right_app">Short Swipe right</string>
+    <string name="long_swipe_up_app">Long Swipe up</string>
+    <string name="long_swipe_down_app">Long Swipe down</string>
+    <string name="long_swipe_left_app">Long Swipe left</string>
+    <string name="long_swipe_right_app">Long Swipe right</string>
+    <string name="clock_click_app">Click on Clock</string>
+    <string name="date_click_app">Click on Date</string>
+    <string name="usage_click_app">Click on Total Usage</string>
+    <string name="double_tap">Double Tap</string>
+
     <!-- Gestures Do Strings -->
     <string name="show_notifications">通知を表示</string>
-    <string name="show_app_list">アプリ一覧を表示</string>
+    <string name="show_app_list">アプリリストを表示</string>
     <string name="open_app">アプリを開く</string>
     <string name="lock_screen">ロック画面</string>
-    <string name="open_quick_settings">クイック設定</string>
+    <string name="open_quick_settings">Quick Settings</string>
     <string name="show_recents">Show Recents</string>
-    <string name="open_power_dialog">電源ダイアログ</string>
-    <string name="take_a_screenshot">スクリーンショットを撮る</string>
-    <string name="left_page">左ページへ</string>
-    <string name="right_page">右ページへ</string>
-    <string name="double_tap_to_lock_screen">ダブルタップでロック</string>
+    <string name="open_power_dialog">Power Dialog</string>
+    <string name="take_a_screenshot">Take a Screenshot</string>
+    <string name="left_page">Go to Left Page</string>
+    <string name="right_page">Go to Right Page</string>
+    <string name="double_tap_to_lock_screen">Double Tap to Lock</string>
+
     <!-- Miscellaneous Strings -->
-    <string name="settings_text_size">設定文字サイズ</string>
-    <string name="display_hidden_apps">隠しアプリを表示する</string>
-    <string name="lock_settings">ロック設定</string>
+    <string name="settings_text_size">Settings Text Size</string>
+    <string name="display_hidden_apps">Display Hidden Apps</string>
+    <string name="lock_settings">Lock Settings</string>
+
     <!-- Backup Strings -->
     <string name="backup">バックアップ</string>
-    <string name="load_backup">負荷</string>
+    <string name="load_backup">ロード</string>
     <string name="save_backup">保存</string>
-    <string name="clear_backup">クリア</string>
+    <string name="clear_backup">消去</string>
+
     <!-- Settings Strings -->
     <string name="off">オフ</string>
     <string name="on">オン</string>
     <string name="left">左</string>
     <string name="right">右</string>
-    <string name="center">中央揃え</string>
+    <string name="center">中心</string>
     <string name="dark">ダーク</string>
     <string name="light">ライト</string>
     <string name="settings">設定</string>
@@ -104,15 +115,15 @@
     <string name="system_default">システム</string>
     <string name="delete">消去</string>
     <string name="hide">非表示</string>
-    <string name="unhide">非表示解除</string>
-    <string name="rename">名前の変更</string>
+    <string name="unhide">非表示を解除</string>
+    <string name="rename">名前を変更</string>
     <string name="info">情報</string>
     <string name="okay">OK</string>
     <string name="save">保存</string>
     <string name="show">表示</string>
-    <string name="reset">Reset</string>
+    <string name="reset">リセット</string>
     <string name="cancel">キャンセル</string>
-    <string name="enable">有効にする</string>
+    <string name="enable">有効</string>
     <string name="disable">無効</string>
     <string name="enabled">有効</string>
     <string name="disabled">無効</string>
@@ -120,50 +131,54 @@
     <string name="close">閉じる</string>
     <string name="copy">コピー</string>
     <!-- Colored Themes -->
-    <string name="catppuccino">カプチーノ</string>
-    <string name="nordic">ノルディック</string>
+    <string name="catppuccino">Catppuccino</string>
+    <string name="nordic">Nordic</string>
     <!-- Dark Only Themes -->
-    <string name="dracula">ドラキュラ</string>
-    <string name="arc">アーク</string>
-    <string name="nokto">ノクト</string>
-    <string name="breeze">風</string>
-    <string name="yaru">ヤル</string>
+    <string name="dracula">Dracula</string>
+    <string name="arc">Arc</string>
+    <string name="nokto">Nokto</string>
+    <string name="breeze">Breeze</string>
+    <string name="yaru">Yaru</string>
     <!-- Light Only Themes -->
-    <string name="adwaita">アドワイタ</string>
+    <string name="adwaita">Adwaita</string>
+
     <!-- PinCode Strings -->
-    <string name="text_authentication_cancel">認証をキャンセルします。</string>
-    <string name="text_authentication_error">認証エラー:%1$s(コード %2$d)</string>
-    <string name="text_authentication_failed">認証に失敗しました。</string>
-    <string name="text_biometric_login">mLauncher の生体認証ログイン</string>
-    <string name="text_biometric_login_sub">生体認証資格情報を使用してログインします</string>
+    <string name="text_authentication_cancel">Authentication Cancel.</string>
+    <string name="text_authentication_error">Authentication error:%1$s(code %2$d)</string>
+    <string name="text_authentication_failed">Authentication failed.</string>
+    <string name="text_biometric_login">Biometric login for mLauncher</string>
+    <string name="text_biometric_login_sub">Log in using your biometric credentials.</string>
+
     <!-- Crash Strings -->
-    <string name="acra_crash">クラッシュ</string>
-    <string name="acra_dialog_text">申し訳ございませんが、 %1$s で予期しない問題が発生したため、終了する必要があります。クラッシュ レポートを送信して改善にご協力ください。\n\n%1$s はお客様のプライバシーを重視しており、収集されたデータはアプリの安定性を向上させるためにのみ使用されます。個人情報は収集されません。ご協力ありがとうございます!</string>
-    <string name="acra_send_report">レポートを送信</string>
-    <string name="acra_dont_send">送信しない</string>
-    <string name="acra_mail_body">アプリケーションでクラッシュが発生しました。\n\n以下はデバイスの詳細です。 エラー ログは参照用のファイルとして添付されています。 この問題の解決にご協力いただければ幸いです。\n\nデバイス情報: \n[以下の情報を入力してください。角括弧内のものはすべて削除してください。削除しないと無視されます。]\n\n- アプリ バージョン: [0.0.1]\n- Android バージョン: [14]\n- デバイス名: [Android Pixel 69]\n- インストール場所: [github、fdroid、obtanium、self]\n\nこの件に早急に対応していただければ幸いです。\n\nありがとう。\n</string>
-    <string name="settings_font_system">システム</string>
+    <string name="acra_crash">Crash</string>
+    <string name="acra_dialog_text">We\'re sorry, but %1$s has encountered an unexpected issue and needs to close. Please help us improve by sending a crash report.\n\n%1$s values your privacy and the data collected is solely used for improving app stability. No personal information is collected. Thank you for your support!</string>
+    <string name="acra_send_report">Send Report</string>
+    <string name="acra_dont_send">Don\'t Send</string>
+    <string name="acra_mail_body">A crash has occurred in the application.\n\nBelow are the details of the device. The error log has been attached as a file for your reference. We would appreciate your assistance in resolving this issue.\n\nDevice Information: \n[PLEASE fill in the information below also removing anything between the square brackets or this will be ignored.]\n\n- App Version: [0.0.1]\n- Android Version: [14]\n- Device Name: [Android Pixel 69]\n- Install Location: [github, fdroid, obtanium, self]\n\nYour prompt attention to this matter is greatly appreciated.\n\nThank you.\n</string>
+
+    <string name="settings_font_system">System</string>
+
     <!-- Search Stings -->
     <string name="search_engine">検索エンジン</string>
-    <string name="search_google">グーグル</string>
-    <string name="search_yahoo">ヤフー</string>
-    <string name="search_duckduckgo">ダックダックゴー</string>
-    <string name="search_bing">ビング</string>
-    <string name="search_brave">勇敢な</string>
-    <string name="search_swisscow">スイスカウズ</string>
+    <string name="search_google">Google</string>
+    <string name="search_yahoo">Yahoo</string>
+    <string name="search_duckduckgo">DuckDuckGo</string>
+    <string name="search_bing">Bing</string>
+    <string name="search_brave">Brave</string>
+    <string name="search_swisscow">SwissCows</string>
+
     <!-- Unsorted Strings -->
-    <string name="show_apps">すべてのアプリ</string>
-    <string name="total_screen_time">合計スクリーン時間</string>
-    <string name="can_not_delete_system_apps">システムアプリを削除できない</string>
-    <string name="please_select_app">アプリを選択してください</string>
-    <string name="drawer_list_empty_hint">アプリが見つかりません</string>
-    <string name="long_press_for_settings">設定用に長押ししてください</string>
-    <string name="swipe_up_for_apps">すべてのアプリで上にスワイプ</string>
-    <string name="app_drawer_tips">ヒント: 下にスワイプして解除します。スクロールしてキーボードを非表示にします。</string>
-    <string name="double_tap_lock_is_enabled_message">ダブルタップで指紋やフェイスロックを無効にする場合は、mLauncher の設定を開き、「実験的」をタップして指示に従ってください。ありがとうございます。</string>
-    <string name="double_tap_lock_uninstall_message">ダブルタップしてロックを有効にします。
-		\n\n注意: mLauncherを削除することにした場合は、最初にオフにします。</string>
-    <string name="accessibility_service_name">mLauncher アクションサービス</string>
-    <string name="accessibility_service_description">このアクセシビリティ サービスにより、mLauncher は画面のロックやクイック設定を開くなどの特定のアクションを実行できます。当社のアクセシビリティ サービスは、いかなるデータも収集または共有しません。</string>
+    <string name="show_apps">All apps</string>
+    <string name="total_screen_time">Total Screen Time</string>
+    <string name="can_not_delete_system_apps">Can\'t Delete System Apps</string>
+    <string name="please_select_app">Please select an app</string>
+    <string name="drawer_list_empty_hint">No apps found</string>
+    <string name="long_press_for_settings">Long press anywhere for settings</string>
+    <string name="swipe_up_for_apps">Swipe up for all apps</string>
+    <string name="app_drawer_tips">Tip: Swipe down to dismiss. Scroll to hide keyboard.</string>
+    <string name="double_tap_lock_is_enabled_message">If double tap lock disables fingerprint or face unlock, open mLauncher settings, tap on \'experimental\' and follow the instructions. Thank you.</string>
+    <string name="double_tap_lock_uninstall_message">Double tap to lock enabled. \n\nNote: Turn this OFF first if you decide to delete mLauncher.</string>
+    <string name="accessibility_service_name">mLauncher Actions Service</string>
+    <string name="accessibility_service_description">This accessibility service allows mLauncher to do certain actions such as locking the screen or opening the quick settings. Our accessibility service does not collect or share any data.</string>
     <string name="version">バージョン</string>
 </resources>
