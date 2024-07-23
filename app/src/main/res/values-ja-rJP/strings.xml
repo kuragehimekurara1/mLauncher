@@ -3,22 +3,22 @@
     <string name="app">アプリ</string>
 
     <!-- Admin Settings -->
-    <string name="admin_permission_message">mLauncher promises to use lock screen permission responsibly. mLauncher does not collect or share any data.</string>
-    <string name="experimental">(試験的)</string>
+    <string name="admin_permission_message">mLauncherは、ロック画面の許可を責任を持って使用することをお約束致します。mLauncherはデータを収集または共有しません。</string>
+    <string name="experimental">（試験的）</string>
 
     <!-- Settings Headers -->
-    <string name="appearance">Appearance</string>
-    <string name="behavior">Behavior</string>
-    <string name="homescreen">Homescreen</string>
-    <string name="alignment">Alignment</string>
-    <string name="gestures">Gestures</string>
-    <string name="miscellaneous">Miscellaneous</string>
+    <string name="appearance">外観</string>
+    <string name="behavior">行動</string>
+    <string name="homescreen">ホーム画面</string>
+    <string name="alignment">配置</string>
+    <string name="gestures">ジェスチャー</string>
+    <string name="miscellaneous">その他</string>
 
     <!-- Home Strings -->
-    <string name="hidden_apps">Hidden Apps</string>
-    <string name="reorder_apps">Re-Order Apps</string>
-    <string name="set_as_default_launcher">Set as Default Launcher</string>
-    <string name="change_default_launcher">Change Default Launcher</string>
+    <string name="hidden_apps">アプリを隠す</string>
+    <string name="reorder_apps">アプリを並べ替える</string>
+    <string name="set_as_default_launcher">デフォルトのランチャーとして設定する</string>
+    <string name="change_default_launcher">デフォルトのランチャーを変更する</string>
 
     <!-- Appearance Strings -->
     <string name="status_bar">Show status bar</string>
